@@ -11,6 +11,7 @@
     "core-js": "^3.6.5",
     "element-plus": "^1.0.2-beta.28",
     "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
     "sass-loader": "^10.1.1",
     "vue": "^3.0.0",
     "vue-cli-plugin-element-plus": "~0.0.13",
