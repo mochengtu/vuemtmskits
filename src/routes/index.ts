@@ -9,17 +9,17 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: '/login',
         name: 'Login',
-        component: () => import(/* webpackChunkName: "Home" */ '@/views/user/login/index.vue'),
+        component: () => import(/* webpackChunkName: "Login" */ '@/views/user/login/index.vue'),
     },
     {
         path: '/reg',
         name: 'Reg',
-        component: () => import(/* webpackChunkName: "Home" */ '@/views/user/reg/index.vue'),
+        component: () => import(/* webpackChunkName: "Reg" */ '@/views/user/reg/index.vue'),
     },
     {
         path: '/news',
         name: 'News',
-        component: () => import(/* webpackChunkName: "Home" */ '@/views/news/index.vue'),
+        component: () => import(/* webpackChunkName: "News" */ '@/views/news/index.vue'),
     },
 ];
 
@@ -49,7 +49,5 @@ const router = createRouter({
 
 // });
 export default router;
-/**
- * i:
- */
+
 
