@@ -24,13 +24,13 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: createWebHistory(),
     routes,
 });
 
 
 // 路由守卫
-router.beforeEach((to, form, next) => {
+// router.beforeEach((to, form, next) => {
     /**
      * to: Route: 即将要进入的目标 路由对象
      * from: Route: 当前导航正要离开的路由
@@ -44,10 +44,10 @@ router.beforeEach((to, form, next) => {
      *          next(error): (2.4.0+) 如果传入 next 的参数是一个 Error 实例，则导航会被终止且该错误会被传递给 router.onError() 注册过的回调。
      */
 
-    console.log("to: ", to)
-    console.log("form: ", form)
+    // console.log("to: ", to)
+    // console.log("form: ", form)
 
-});
+// });
 export default router;
 /**
  * i:

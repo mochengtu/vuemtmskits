@@ -1,6 +1,7 @@
 <template>
   <div class="login">
       <h1>{{ title }}</h1>
+      <el-button type="primary">主要按钮</el-button>
   </div>
 </template>
 
