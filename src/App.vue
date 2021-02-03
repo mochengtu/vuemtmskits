@@ -18,13 +18,13 @@ export default defineComponent({
     onMounted(() => {
       fetchGet({
         method: 'get',
-        api: 'http://bit.ly/2mTM3nY',
+        api: 'g2/getOnsInfo',
         responseType: 'stream',
         payload: {
-
+          name: 'disease_h5',
         },
         callback:(res) => {
-          console.log(res);
+          console.log(res.data);
         }
       });
     })
